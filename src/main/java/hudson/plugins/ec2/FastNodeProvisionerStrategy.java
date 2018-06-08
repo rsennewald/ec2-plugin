@@ -88,7 +88,7 @@ public class FastNodeProvisionerStrategy extends Strategy {
 
     /**
      * Ping the nodeProvisioner as a new task enters the queue, so it can provision an EC2 Instance without delay.
-     */
+     *//*
     @Extension
     public static class FastProvisionning extends QueueListener {
 
@@ -105,5 +105,5 @@ public class FastNodeProvisionerStrategy extends Strategy {
                 }
             }
         }
-    }
+    }*/
 }
